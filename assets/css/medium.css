@@ -19,15 +19,20 @@ nav {
     top: 0;
     z-index: 1;
 }
-.new-change-color {
-    background-color: white;
-}
 .container-nav {
     display: flex;
     justify-content: space-around;
     padding: 25px;
-    background-color: #ffc017;
     border-bottom: 1px solid black;
+}
+.nav-bar {
+    background-color: #ffc017;
+}
+.nav-color{
+    background-color: white;
+}
+.nav-button {
+    background-color: #1a8917;
 }
 ul {
   font-family: 'Libre Baskerville', serif;
@@ -52,15 +57,20 @@ ul li a {
 /* FINE STILE NAV-BAR */
 
 /* INIZIO STILE HEADER */
+header {
+    display: flex;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+}
 .container-header{
     display: flex;
     flex-direction: column;
     padding: 70px 0 70px 170px;    
     justify-content: space-evenly;
     height: 40vh;
-    border-bottom: 1px solid black;
     background-color: #ffc017;
 }
+
 .button-header {
     color: white;
     background-color: black;
